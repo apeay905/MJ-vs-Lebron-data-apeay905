@@ -8,7 +8,8 @@ Select
 From people AS p
 Join appearances As a
 ON p.playerID = a.playerID
-ORDER BY height ASC;
+ORDER BY height ASC
+Limit 1;
 
 
 --3.
